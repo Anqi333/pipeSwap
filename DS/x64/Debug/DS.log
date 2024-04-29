@@ -1,0 +1,4 @@
+﻿  test.c
+C:\Users\协议组\source\repos\DS\test.c(4,5): warning C4013: “printf”未定义；假设外部返回 int
+C:\Users\协议组\source\repos\DS\test.c(12,5): warning C4013: “ecdsa_test”未定义；假设外部返回 int
+  DS.vcxproj -> C:\Users\协议组\source\repos\DS\x64\Debug\DS.exe
