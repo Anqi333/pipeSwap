@@ -1,0 +1,59 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.36.32537.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/协议组/desktop/liblhtlp-master/src/util.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "d54103e98460edc36ef446012c893e072ecb5191b571820e2c4569328a2dbd36"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/msys/home/协议组/gmp-6.2.1/config.h"
+          },
+          "hashes": {
+            "sha-256": "fbf57901df8707530c7e3b42eb69b67bcad8a1068aaea6b14bedeb7d194dec23"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/协议组/desktop/liblhtlp-master/include/util.h"
+          },
+          "hashes": {
+            "sha-256": "b56ea05beefb0e672f5af6688a1706404646dc8ee08ddd1cabb680409ca52ec0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/msys/home/协议组/gmp-6.2.1/gmp.h"
+          },
+          "hashes": {
+            "sha-256": "2edf01263d03f1d493e8462789e834eff331bf25881b6934e555bf60a84b2b63"
+          }
+        }
+      ]
+    }
+  ]
+}

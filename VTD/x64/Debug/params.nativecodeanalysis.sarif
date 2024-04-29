@@ -1,0 +1,51 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.36.32537.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/协议组/desktop/liblhtlp-master/src/params.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "103b848e550c1e2786dd7f4e74a356d4ac90138535e809ebaca38f81ef7469cd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/msys/home/协议组/gmp-6.2.1/gmp.h"
+          },
+          "hashes": {
+            "sha-256": "2edf01263d03f1d493e8462789e834eff331bf25881b6934e555bf60a84b2b63"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/协议组/desktop/liblhtlp-master/include/params.h"
+          },
+          "hashes": {
+            "sha-256": "197ee8495b859dff274bbb33f7da839bd5b03b0db732c7aab9c72c9104e16ccc"
+          }
+        }
+      ]
+    }
+  ]
+}

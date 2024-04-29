@@ -1,0 +1,6 @@
+﻿  code.c
+E:\msys\home\协议组\gmp-6.2.1\gmp.h(1785,24): warning C4244: “return”: 从“mp_limb_t”转换到“unsigned long”，可能丢失数据
+E:\msys\home\协议组\gmp-6.2.1\gmp.h(2230,16): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+C:\Users\协议组\Desktop\liblhtlp-master\test\util.h(29,1): warning C4005: “FAILED”: 宏重定义
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(29655,1): message : 参见“FAILED”的前一个定义
+  VTD.vcxproj -> C:\Users\协议组\source\repos\VTD\x64\Debug\VTD.exe

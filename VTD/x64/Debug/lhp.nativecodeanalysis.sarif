@@ -1,0 +1,123 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.36.32537.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/协议组/desktop/liblhtlp-master/src/lhp.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "e265c678a56fa5247e643aafb33df492f0fbb6831a0d3c0f34708232cb7f832a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/msys/home/协议组/gmp-6.2.1/gmp.h"
+          },
+          "hashes": {
+            "sha-256": "2edf01263d03f1d493e8462789e834eff331bf25881b6934e555bf60a84b2b63"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/openssl-win64/include/openssl/sha.h"
+          },
+          "hashes": {
+            "sha-256": "a96832a34b7cff643fd2f28f18fadcc9706e13044d2cf2f03f1e84c8490dc5e5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/openssl-win64/include/openssl/macros.h"
+          },
+          "hashes": {
+            "sha-256": "d699d2286f1738cf935a2c6c7667be6d8a16c91874ec9cb7b93244b01526b9f2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/openssl-win64/include/openssl/opensslconf.h"
+          },
+          "hashes": {
+            "sha-256": "8343f2eccc78f00a1cd05f7a994f341697213785370910afc1c7bf31cdf6fcb3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/openssl-win64/include/openssl/configuration.h"
+          },
+          "hashes": {
+            "sha-256": "d7d44be54377e736d9da5f531cda3c0152abd77cbf14d9c5800047afb507fb01"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/openssl-win64/include/openssl/opensslv.h"
+          },
+          "hashes": {
+            "sha-256": "92c448ddac2569b3e8f187b05c22e82e0fdc1a2b9a2a8dcd4dd6df45b9ed4513"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/openssl-win64/include/openssl/e_os2.h"
+          },
+          "hashes": {
+            "sha-256": "59a517cccd94403c7037102f4beb10f33d5b8cf768a000ea8e730a23ec3e23a9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/协议组/desktop/liblhtlp-master/include/lhp.h"
+          },
+          "hashes": {
+            "sha-256": "7497cc23764a78b29c5262eaf6fa8044cbc738010a96e30cc438983db5573c3b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/协议组/desktop/liblhtlp-master/include/params.h"
+          },
+          "hashes": {
+            "sha-256": "197ee8495b859dff274bbb33f7da839bd5b03b0db732c7aab9c72c9104e16ccc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/协议组/desktop/liblhtlp-master/include/puzzle.h"
+          },
+          "hashes": {
+            "sha-256": "b3982b3d5e8631231478a1de8e1ccf759b37b8000f615f297040fbfb5a71ce93"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/协议组/desktop/liblhtlp-master/include/util.h"
+          },
+          "hashes": {
+            "sha-256": "b56ea05beefb0e672f5af6688a1706404646dc8ee08ddd1cabb680409ca52ec0"
+          }
+        }
+      ]
+    }
+  ]
+}

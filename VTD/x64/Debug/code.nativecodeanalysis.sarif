@@ -1,0 +1,765 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "取消对 NULL 指针“proof”的引用。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/协议组/Desktop/liblhtlp-master/test/code.c"
+                },
+                "region": {
+                  "startLine": 71,
+                  "startColumn": 5,
+                  "endLine": 71,
+                  "endColumn": 16
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "zk_prove",
+                  "decoratedName": "zk_prove",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/协议组/Desktop/liblhtlp-master/test/code.c"
+                          },
+                          "region": {
+                            "startLine": 62,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/协议组/Desktop/liblhtlp-master/test/code.c"
+                          },
+                          "region": {
+                            "startLine": 63,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/协议组/Desktop/liblhtlp-master/test/code.c"
+                          },
+                          "region": {
+                            "startLine": 63,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/协议组/Desktop/liblhtlp-master/test/code.c"
+                          },
+                          "region": {
+                            "startLine": 64,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/协议组/Desktop/liblhtlp-master/test/code.c"
+                          },
+                          "region": {
+                            "startLine": 65,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/协议组/Desktop/liblhtlp-master/test/code.c"
+                          },
+                          "region": {
+                            "startLine": 66,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/协议组/Desktop/liblhtlp-master/test/code.c"
+                          },
+                          "region": {
+                            "startLine": 68,
+                            "startColumn": 15
+                          }
+                        },
+                        "message": {
+                          "text": "“proof”可能为 NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/协议组/Desktop/liblhtlp-master/test/code.c"
+                          },
+                          "region": {
+                            "startLine": 71,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "已取消对“proof”的引用，但可能仍为 NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "取消对 NULL 指针“sig”的引用。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/协议组/Desktop/liblhtlp-master/test/code.c"
+                },
+                "region": {
+                  "startLine": 104,
+                  "startColumn": 5,
+                  "endLine": 104,
+                  "endColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "JSign",
+                  "decoratedName": "JSign",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/协议组/Desktop/liblhtlp-master/test/code.c"
+                          },
+                          "region": {
+                            "startLine": 103,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "“sig”可能为 NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/协议组/Desktop/liblhtlp-master/test/code.c"
+                          },
+                          "region": {
+                            "startLine": 104,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "已取消对“sig”的引用，但可能仍为 NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "取消对 NULL 指针“pre_sig”的引用。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/协议组/Desktop/liblhtlp-master/test/code.c"
+                },
+                "region": {
+                  "startLine": 212,
+                  "startColumn": 5,
+                  "endLine": 212,
+                  "endColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "PSign",
+                  "decoratedName": "PSign",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/协议组/Desktop/liblhtlp-master/test/code.c"
+                          },
+                          "region": {
+                            "startLine": 205,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/协议组/Desktop/liblhtlp-master/test/code.c"
+                          },
+                          "region": {
+                            "startLine": 206,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/协议组/Desktop/liblhtlp-master/test/code.c"
+                          },
+                          "region": {
+                            "startLine": 206,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/协议组/Desktop/liblhtlp-master/test/code.c"
+                          },
+                          "region": {
+                            "startLine": 207,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/协议组/Desktop/liblhtlp-master/test/code.c"
+                          },
+                          "region": {
+                            "startLine": 208,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/协议组/Desktop/liblhtlp-master/test/code.c"
+                          },
+                          "region": {
+                            "startLine": 209,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/协议组/Desktop/liblhtlp-master/test/code.c"
+                          },
+                          "region": {
+                            "startLine": 211,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "“pre_sig”可能为 NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/协议组/Desktop/liblhtlp-master/test/code.c"
+                          },
+                          "region": {
+                            "startLine": 212,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "已取消对“pre_sig”的引用，但可能仍为 NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "取消对 NULL 指针“sig”的引用。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/协议组/Desktop/liblhtlp-master/test/code.c"
+                },
+                "region": {
+                  "startLine": 376,
+                  "startColumn": 5,
+                  "endLine": 376,
+                  "endColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Adapt",
+                  "decoratedName": "Adapt",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/协议组/Desktop/liblhtlp-master/test/code.c"
+                          },
+                          "region": {
+                            "startLine": 375,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "“sig”可能为 NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/协议组/Desktop/liblhtlp-master/test/code.c"
+                          },
+                          "region": {
+                            "startLine": 376,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "已取消对“sig”的引用，但可能仍为 NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.36.32537.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/协议组/Desktop/liblhtlp-master/test/code.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "7545eb8ab268898d8455d2b637cc8092134e559377bbc65f280c0cfc387648b6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/openssl-win64/include/openssl/ec.h"
+          },
+          "hashes": {
+            "sha-256": "345d8f911288157dd895f07ada6a2dd0c290eb722e5cec8e36afdd49001f00b0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/openssl-win64/include/openssl/macros.h"
+          },
+          "hashes": {
+            "sha-256": "d699d2286f1738cf935a2c6c7667be6d8a16c91874ec9cb7b93244b01526b9f2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/openssl-win64/include/openssl/opensslconf.h"
+          },
+          "hashes": {
+            "sha-256": "8343f2eccc78f00a1cd05f7a994f341697213785370910afc1c7bf31cdf6fcb3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/openssl-win64/include/openssl/configuration.h"
+          },
+          "hashes": {
+            "sha-256": "d7d44be54377e736d9da5f531cda3c0152abd77cbf14d9c5800047afb507fb01"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/openssl-win64/include/openssl/opensslv.h"
+          },
+          "hashes": {
+            "sha-256": "92c448ddac2569b3e8f187b05c22e82e0fdc1a2b9a2a8dcd4dd6df45b9ed4513"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/openssl-win64/include/openssl/types.h"
+          },
+          "hashes": {
+            "sha-256": "f8617a673f85cb733b3ffa74d627aaece882c65f8f778751cd603f8761c60255"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/openssl-win64/include/openssl/e_os2.h"
+          },
+          "hashes": {
+            "sha-256": "59a517cccd94403c7037102f4beb10f33d5b8cf768a000ea8e730a23ec3e23a9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/openssl-win64/include/openssl/safestack.h"
+          },
+          "hashes": {
+            "sha-256": "1089ec732df2ababf7185ecf93660a5a8e2cf6d84eee3097afa514086cde7cb5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/openssl-win64/include/openssl/stack.h"
+          },
+          "hashes": {
+            "sha-256": "0a836a1e7e44c35041f7c69804eacc58c51ddb71f0fa66a9d3f196ddb168529b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/openssl-win64/include/openssl/asn1.h"
+          },
+          "hashes": {
+            "sha-256": "36ee6d52ebaff35cb23e1631f25e7f7f242b5a7c2d740c3571ec9c3db8209004"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/openssl-win64/include/openssl/bio.h"
+          },
+          "hashes": {
+            "sha-256": "0597d275fc5b038edd99fde305ffe563c09a089fb087d7ccc565846e528cc18a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/openssl-win64/include/openssl/crypto.h"
+          },
+          "hashes": {
+            "sha-256": "fa1f104570d366b04f8a8d5edcaab61371f781306d6d470473fc937414b342f5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/openssl-win64/include/openssl/cryptoerr.h"
+          },
+          "hashes": {
+            "sha-256": "0a4c9f890a8eaabafa04eb7248c7b7918bb0ed0c466adce181f211ab956d9fc8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/openssl-win64/include/openssl/symhacks.h"
+          },
+          "hashes": {
+            "sha-256": "7dd3ce0dcd5364ecdb87d3f2bb518138f341bf1eb1661949ccf8ae559dd4587d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/openssl-win64/include/openssl/cryptoerr_legacy.h"
+          },
+          "hashes": {
+            "sha-256": "b9fc23b3e506ec253dbd6438ce0f7fa7a1cf3743dbcd69fcd405bb0a897fe695"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/openssl-win64/include/openssl/core.h"
+          },
+          "hashes": {
+            "sha-256": "e766568c3f0f3f610c7f98ac7070ed79c8d952b9f624349423ce477298b443fe"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/openssl-win64/include/openssl/bioerr.h"
+          },
+          "hashes": {
+            "sha-256": "a53280c2666f5b3bb59b87038ad0ed8d03c12056647dfd356202eda2ef525828"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/openssl-win64/include/openssl/asn1err.h"
+          },
+          "hashes": {
+            "sha-256": "f710ea04c53067b9f005fa9a7063d35e60ec8f84b8f05601d4fd66c65da1b9e0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/openssl-win64/include/openssl/bn.h"
+          },
+          "hashes": {
+            "sha-256": "e792452e6d34246a3d93ef236afabbd26a9ac86d2002d513a001e59932a26e1c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/openssl-win64/include/openssl/bnerr.h"
+          },
+          "hashes": {
+            "sha-256": "89be098be688d842687e593e954e5a0f899b43f3880cb417b9649b0d5ff13d71"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/openssl-win64/include/openssl/ecerr.h"
+          },
+          "hashes": {
+            "sha-256": "3c5f091f5dda28819795e6a1f35852467ca6ad9eb9fdbc01d7594f8aa841c4ba"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/openssl-win64/include/openssl/params.h"
+          },
+          "hashes": {
+            "sha-256": "96cadc5fa90f4f3deb06452872c739a0329ae2cbec2fa39113e2b2e467e7e51a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/openssl-win64/include/openssl/objects.h"
+          },
+          "hashes": {
+            "sha-256": "d8bcdea31baefb1d3d8e103daa5296a45b9606a84a1e803c1a8d5032b8ea6dd1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/openssl-win64/include/openssl/obj_mac.h"
+          },
+          "hashes": {
+            "sha-256": "125549c74147543a8ea970b463cfa99bf9e19b62e93c4260163ad41000394dcf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/openssl-win64/include/openssl/objectserr.h"
+          },
+          "hashes": {
+            "sha-256": "e070dd6080310e2501aa3bd55498edb208c29b5c9a8f41a997181e641a85c9fd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/openssl-win64/include/openssl/rand.h"
+          },
+          "hashes": {
+            "sha-256": "31502e701bea1365ac3ba10427e05c7984d30d0453f16d62c49d3a3d564742cc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/openssl-win64/include/openssl/randerr.h"
+          },
+          "hashes": {
+            "sha-256": "8ecb0d1d525e261c288121a526687fd0648540f3eaa496d5344f28a51e684081"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/openssl-win64/include/openssl/evp.h"
+          },
+          "hashes": {
+            "sha-256": "96f078e0949a84c9606cc1f4e1d038819a0be270010636a95d69a81bc8f86210"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/openssl-win64/include/openssl/core_dispatch.h"
+          },
+          "hashes": {
+            "sha-256": "c8619e50c2d20a69061d66c84e6ca458c606907ec7c64cef9ffb3f170f580006"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/openssl-win64/include/openssl/evperr.h"
+          },
+          "hashes": {
+            "sha-256": "eb551ed8b403e2c21fbe4b4532296a7ebba8c1093579a5baf627d3344665b5f5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/openssl-win64/include/openssl/sha.h"
+          },
+          "hashes": {
+            "sha-256": "a96832a34b7cff643fd2f28f18fadcc9706e13044d2cf2f03f1e84c8490dc5e5"
+          }
+        }
+      ]
+    }
+  ]
+}
