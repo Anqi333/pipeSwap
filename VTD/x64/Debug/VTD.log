@@ -3,4 +3,8 @@ E:\msys\home\协议组\gmp-6.2.1\gmp.h(1785,24): warning C4244: “return”: �
 E:\msys\home\协议组\gmp-6.2.1\gmp.h(2230,16): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
 C:\Users\协议组\Desktop\liblhtlp-master\test\util.h(29,1): warning C4005: “FAILED”: 宏重定义
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(29655,1): message : 参见“FAILED”的前一个定义
+C:\Users\协议组\Desktop\liblhtlp-master\test\code.c(170,27): warning C4013: “getpid”未定义；假设外部返回 int
+C:\Users\协议组\Desktop\liblhtlp-master\test\code.c(213,20): warning C4087: “rand”: 用“void”参数列表声明
+C:\Users\协议组\Desktop\liblhtlp-master\test\code.c(214,20): warning C4087: “rand”: 用“void”参数列表声明
+C:\Users\协议组\Desktop\liblhtlp-master\test\code.c(218,20): warning C4087: “rand”: 用“void”参数列表声明
   VTD.vcxproj -> C:\Users\协议组\source\repos\VTD\x64\Debug\VTD.exe

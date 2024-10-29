@@ -36,6 +36,9 @@
     <ClInclude Include="vtd.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="ds.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\Desktop\liblhtlp-master\src\lhp.c">
@@ -51,6 +54,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\Desktop\liblhtlp-master\test\code.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ds.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
